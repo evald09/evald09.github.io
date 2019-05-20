@@ -1,0 +1,112 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Comfortaa', cursive;
+	line-height: 1.6;
+}
+.container{
+	width: 1000px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.header{
+	background: url(../img/bg.jpg) no-repeat center top;
+	background-size: cover;
+	width: 100%;
+	margin: 0 auto;
+	height: 100vh;
+}
+.menu{
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	bottom: 50px;
+	width: 1000px;
+	max-width: 1000px;
+	margin: 0 auto;
+}		
+.menu_link{ 
+	font-size: 25px;
+	text-transform: uppercase;	
+	display: inline-block;
+	margin: 0 10px;
+	color:black;
+	text-decoration: none;
+	transition: color 0.2s linear;
+}
+.menu_link:hover{
+	color:#7932ac;
+}
+/*  Главвная  */
+
+.home{
+	margin-top: 100px;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+}
+
+/*  Раздел Характеристики*/
+
+.row{
+	text-align: center;
+}
+.row_1{
+	list-style-type: none;
+}
+
+/* Раздел Характеристики */
+
+
+/* Раздел Купить */
+
+.buy{
+	text-align: center;
+	margin-bottom: 80px;
+}
+.buy_link{
+	display: inline-block;
+	margin: 0 30px;
+}
+
+/* Раздел Купить */
+
+/*  Главвная  */
+.footer{
+	background-color: #fff;
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+	padding-top: 30px;
+
+}
+.language{
+	
+	border: 3px solid;
+	border-color: #7932ac;
+	border-radius: 3px;
+    text-align:  center;
+    width: 50px;	
+    height: 60px; 
+    display: inline; 
+    margin-left: 50%; 
+    padding: 10px;
+    padding-bottom: 5px;
+}
+.language_link{
+	
+	font-size: 20px;
+	color:black;
+	text-decoration: none;
+	transition: color 0.2s linear;		
+}
+.language_link:hover{
+	color:#7932ac;
+}
